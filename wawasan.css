@@ -1,0 +1,135 @@
+*,
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.container-navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgb(246, 221, 229);
+
+}
+.text-post{
+    width: auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+.nav-text{
+    font-size: 17px;
+    font-weight: 200;
+    margin: 2px; 
+    padding: 4px;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(246, 221, 229);
+}
+.nav-text:hover{
+    background-color:lightyellow;
+    transition:.3s;
+    box-shadow: 1.5px 0px 1.5px 1.5px rgba(0, 0, 0, .5);
+    color: black;
+
+}
+h3{
+    text-shadow: 1px 1px black 1px 1px purple;
+}
+.social-media{
+    height: 100%;
+    margin-left: 850px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.icons{
+    margin: 9px;
+    font-size: 30px;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+.icons:hover{
+    font-size: 29.5px;
+    transition: 0.2s;
+    text-shadow: 3px 1px  rgb(48, 94, 91);
+}
+.a1:hover{
+    color: rgb(251, 151, 166);
+}
+.a2:hover{
+    color: rgb(114, 203, 232);
+}
+.a3:hover{
+    color: rgb(37, 37, 255);
+}
+.a4:hover{
+    color: rgb(255, 2, 2);
+}
+.a5:hover{
+    color: lightgreen;
+}
+a{
+    color: black; text-decoration: none;
+}
+
+
+
+
+
+.container-content{
+    height: 698px;
+    text-align: center;
+    background-color: bisque;
+
+}
+.wrapper-content{
+    height: 600px;
+    display: flex;
+    text-align: center;
+    background-color: bisque;
+}
+.title{
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+.pic > img{
+    width: 500px; 
+    height:350px; border: 3px solid lemonchiffon;
+    border-radius: 20px; 
+    box-shadow: 2.5px 2.5px rgba(0, 0, 0, .75);
+    margin: 5px;
+    cursor: pointer;
+}
+.pic > img:hover{
+    box-shadow: 1.5px 1.5px rgba(0, 0, 0, .75);
+}
+
+.pic{
+    display: flex;
+    width: 100%;
+}
+
+.text-image{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 40px; margin-left: 100px; margin-top: 70px;
+} 
+.paraf1{
+    margin-left: 145px;
+    width: 400px;
+}
+.paraf2{
+    padding-top: 20px; margin-left: 10px;
+    display: flex;
+    text-align: left;
+}
